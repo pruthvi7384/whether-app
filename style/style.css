@@ -1,0 +1,202 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+/* Style Loadind svg */
+    #loading{
+        position: fixed;
+        width: 100%;
+        height:100vh;
+        background: #000
+        url(https://media0.giphy.com/media/N256GFy1u6M6Y/giphy.gif?cid=ecf05e47b28jkr0h9v1ti3qgp1fesgup82od1qpi3fws7f2j&rid=giphy.gif)
+        no-repeat
+        center;
+        z-index: 999999999;
+    }
+/* End loading svg */
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ffffff;
+    font-family: 'Open Sans', sans-serif;
+    color:#000000;
+    background:linear-gradient(180deg,rgba(0,0,0,.1),#000 93%),url(../assets/bannner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:none;
+}
+/* =======Nav======== */
+    nav{
+        width: 100%;
+        padding:20px;
+    }
+    nav .nav_brand{
+        justify-content: space-around;
+    }
+    nav .nav_brand a{
+        font-family: 'Roboto Condensed', sans-serif; 
+        font-size:30px;
+        color: #fff;
+        font-weight:700;
+        display:flex;
+        align-items:center;
+    }
+    nav .nav_brand .fa{
+        color:green;
+        font-size:50px;
+    }
+    nav .current_time h3{
+        color:#fff;
+        padding-top:10px;
+        font-family: 'Roboto Condensed', sans-serif; 
+        font-weight:700;
+        text-transform:capitalize;
+    }
+    nav .current_time h4{
+        color:#fff;
+        font-family: 'Roboto Condensed', sans-serif; 
+        font-weight:700;
+        text-transform:capitalize;
+    }
+    .info{
+        margin-top: 10px;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        align-items:center;
+        text-align:center;
+    }
+/* =======X==Nav==X======== */
+
+/* =========Current Whether Data============= */
+   .current_temprature{
+       justify-content: center;
+       align-items: center;
+   }
+   .current_temprature img{
+       width: 100px;
+       height: 100px;
+   }
+   .current_temprature h1{
+       color: #fff;
+       font-family: 'Roboto Condensed', sans-serif; 
+       font-size:70px;
+   }
+   .current_info h2{
+       color: #fff;
+       font-family: 'Roboto Condensed', sans-serif; 
+       text-transform:capitalize;
+       font-weight: bold;
+       text-align:center;
+   }
+   .current_info p{
+        color: #fff;
+        font-family: 'Roboto Condensed', sans-serif; 
+        text-transform:capitalize;
+        font-weight: bold;
+        text-align:center;
+    }
+    .current_info p span{
+        text-transform:uppercase;
+    }
+   .info_whether{
+       flex-direction:column;
+       justify-content:space-around;
+       color: #fff;
+       align-items:center;
+   }
+   .info_whether ul{
+       flex-wrap: wrap;
+       justify-content:center;
+       align-items:center;
+   }
+   .info_whether ul li{
+       padding:0px 10px;
+       text-transform:capitalize;
+       font-family: 'Roboto Condensed', sans-serif; 
+       font-weight:700;
+       font-size:20px;
+   }
+   .info_whether ul li span{
+       padding:0px 10px;
+       text-transform:lowercase;
+   }
+/* =========X==Current Whether Data==X============= */
+
+/* ===========Daily Wheter Data============== */
+   .heading{
+       margin-top:30px;
+   }
+   .heading h2{
+       text-align:center;
+       color:#fff;
+       font-family: 'Roboto Condensed', sans-serif;
+       text-transform:uppercase;
+       font-weight:700;
+   }
+   .daily_whether {
+       margin: 10px;
+       color: #fff;
+       text-align:center;
+       background-color: #3333336b;
+       padding:20px 30px;
+       border-radius:10px;
+       font-family: 'Roboto Condensed', sans-serif; 
+       font-weight:700;
+       cursor: pointer;
+       transition: all 0.5s ease-in-out;
+   }
+   .daily_whether p{
+       text-transform:capitalize;
+   }
+   .daily_whether:hover{
+       background-color: #333333;
+   }
+   .daily_whether_body ul {
+       text-align: center;
+   }
+   .daily_whether_body ul li{
+       text-transform:capitalize;
+   }
+   .daily_whether_body ul li span{
+       text-transform:lowercase;
+       padding:0px 10px;
+   }
+   #daily{
+       justify-content:space-evenly;
+       align-items:center;
+       margin-top: 30px;
+   }
+   .develop{
+       margin-top: 30px;
+       padding: 50px;
+       background-color: #333333;
+       text-align: center;
+   }
+   .develop p,a{
+       color: #fff;
+       font-family: 'Roboto Condensed', sans-serif;
+       font-weight:700;
+   }
+   .develop p a:hover{
+       text-decoration:none;
+   }
+/* =====X==Daily Whether Data==X========== */
+
+/* =============Responsive Ness================= */
+   @media (max-width: 425px) {
+    .current_temprature h1{
+        font-size:50px;
+    }
+   }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whether Application</title>
+    <!-- FontAwsome Icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- FontAwsome Icon -->
+
+    <!-- Gooogle Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Gooogle Fonts -->
+
+    <!-- Boostrapp CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Boostrapp CDN -->
+
+    <!-- External Style Sheet -->
+        <link rel="stylesheet" href="style/style.css">
+    <!-- External Style Sheet -->
+</head>
+<body onload="myloader()">
+    <!--Added the loading div-->
+        <div id="loading"></div>
+    <!-- End loading -->
+
+    <!-- Nav Bar -->
+        <nav>
+            <div class="nav_brand d-flex">
+                <a href="#"><i class="fa fa-cloud" aria-hidden="true"></i>  &nbsp;<span>CURRENT WHETHER</span></a>
+            </div>
+            <div class="d-flex info">
+                <div class="current_time">
+                    <h3 id="time">12 : 30 : 50 AM</h3>
+                    <h4 id="date">Friday 30 June 2021</h4>
+                </div>
+                <div class="current_time">
+                    <h3 id="time_Zone">Asia/Kolkata</h3>
+                    <h4>lat- <span id="lat">91.00</span> / lon- <span id="lon">222</span></h4>
+                </div>
+            </div>
+        </nav>
+    <!-- Nav Bar -->
+    
+    <!-- Current Whether Forcast -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12" id="current">
+                    
+                </div>
+            </div>
+        </div>
+    <!--X- Current Whether Forcast -X-->
+
+    <!-- Daily Whether Forcast -->
+        <div class="container">
+            <div class="heading">
+                <h2>Daily Whether Forcast</h2>
+            </div>
+            <div class="row" id="daily">
+
+            </div>
+        </div>
+    <!--X- Daily Whether Forcast -X-->
+
+    <!-- Developer Contact -->
+        <div class="container-fluid develop">
+            <p>Designed By ~ <a href="#">Pruthviraj Rajput</a></p>
+        </div>
+    <!-- X-Developer Contact X-->
+
+    <!-- Boostrapp Js CDN -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Boostrapp Js CDN -->
+
+    <!-- External Script Sheet -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    <!-- External Script Sheet -->
+</body>
+</html>
