@@ -112,13 +112,13 @@ a:hover{
     }
    .info_whether{
        flex-direction:column;
-       justify-content:space-around;
+       justify-content:center;
        color: #fff;
        align-items:center;
    }
    .info_whether ul{
        flex-wrap: wrap;
-       justify-content:space-evenly;
+       justify-content:center;
        align-items:center;
    }
    .info_whether ul li{
@@ -190,7 +190,7 @@ a:hover{
        font-weight:700;
    }
    .develop p a:hover{
-       text-decoration:none;
+       color: #fff;
    }
 /* =====X==Daily Whether Data==X========== */
 
