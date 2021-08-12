@@ -119,7 +119,7 @@ function getDailyData(daily){
                 <p>${description}</p>
                 <ul>
                     <li>sunrise<span>${window.moment(sunrise*1000).format('hh : mm : ss  a')}</span></li>
-                    <li>sunrise<span>${window.moment(sunset*1000).format('hh : mm : ss  a')}</span></li>
+                    <li>sunset<span>${window.moment(sunset*1000).format('hh : mm : ss  a')}</span></li>
                 </ul>
             </div>
         </div>`;
